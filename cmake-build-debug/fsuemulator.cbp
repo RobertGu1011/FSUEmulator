@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="fsuemulator"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/robertgu/Developer/CLionProjects/FSUEmulator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/robertgu/Developer/CLionProjects/FSUEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/robertgu/Developer/CLionProjects/FSUEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/robertgu/Developer/CLionProjects/FSUEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/robertgu/Developer/CLionProjects/FSUEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/robertgu/Developer/CLionProjects/FSUEmulator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/robertgu/Developer/CLionProjects/FSUEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/robertgu/Developer/CLionProjects/FSUEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/robertgu/Developer/CLionProjects/FSUEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/robertgu/Developer/CLionProjects/FSUEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/robertgu/Developer/CLionProjects/FSUEmulator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/robertgu/Developer/CLionProjects/FSUEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/robertgu/Developer/CLionProjects/FSUEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/robertgu/Developer/CLionProjects/FSUEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/robertgu/Developer/CLionProjects/FSUEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fsuemulator">
+				<Option output="/home/robertgu/Developer/CLionProjects/FSUEmulator/cmake-build-debug/fsuemulator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/robertgu/Developer/CLionProjects/FSUEmulator/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/deps-cloud/sengine/boost_1_59_0_x86/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/robertgu/Developer/CLionProjects/FSUEmulator/./easylogger/include"/>
+					<Add directory="/home/robertgu/Developer/CLionProjects/FSUEmulator/./tinyxml/include"/>
+					<Add directory="/home/robertgu/Developer/CLionProjects/FSUEmulator/./include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/robertgu/Developer/CLionProjects/FSUEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 fsuemulator"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/robertgu/Developer/CLionProjects/FSUEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/robertgu/Developer/CLionProjects/FSUEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/robertgu/Developer/CLionProjects/FSUEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fsuemulator/fast">
+				<Option output="/home/robertgu/Developer/CLionProjects/FSUEmulator/cmake-build-debug/fsuemulator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/robertgu/Developer/CLionProjects/FSUEmulator/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/deps-cloud/sengine/boost_1_59_0_x86/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/robertgu/Developer/CLionProjects/FSUEmulator/./easylogger/include"/>
+					<Add directory="/home/robertgu/Developer/CLionProjects/FSUEmulator/./tinyxml/include"/>
+					<Add directory="/home/robertgu/Developer/CLionProjects/FSUEmulator/./include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/robertgu/Developer/CLionProjects/FSUEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 fsuemulator/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/robertgu/Developer/CLionProjects/FSUEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/robertgu/Developer/CLionProjects/FSUEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/robertgu/Developer/CLionProjects/FSUEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/robertgu/Developer/CLionProjects/FSUEmulator/easylogger/elog.c">
+			<Option target="fsuemulator"/>
+		</Unit>
+		<Unit filename="/home/robertgu/Developer/CLionProjects/FSUEmulator/easylogger/elog_port.c">
+			<Option target="fsuemulator"/>
+		</Unit>
+		<Unit filename="/home/robertgu/Developer/CLionProjects/FSUEmulator/easylogger/elog_utils.c">
+			<Option target="fsuemulator"/>
+		</Unit>
+		<Unit filename="/home/robertgu/Developer/CLionProjects/FSUEmulator/easylogger/log.cpp">
+			<Option target="fsuemulator"/>
+		</Unit>
+		<Unit filename="/home/robertgu/Developer/CLionProjects/FSUEmulator/src/func_in_thread.cpp">
+			<Option target="fsuemulator"/>
+		</Unit>
+		<Unit filename="/home/robertgu/Developer/CLionProjects/FSUEmulator/src/initial_parameter.cpp">
+			<Option target="fsuemulator"/>
+		</Unit>
+		<Unit filename="/home/robertgu/Developer/CLionProjects/FSUEmulator/src/main.cpp">
+			<Option target="fsuemulator"/>
+		</Unit>
+		<Unit filename="/home/robertgu/Developer/CLionProjects/FSUEmulator/src/mqtt_comm.cpp">
+			<Option target="fsuemulator"/>
+		</Unit>
+		<Unit filename="/home/robertgu/Developer/CLionProjects/FSUEmulator/src/serialization.cpp">
+			<Option target="fsuemulator"/>
+		</Unit>
+		<Unit filename="/home/robertgu/Developer/CLionProjects/FSUEmulator/src/shared_variable.cpp">
+			<Option target="fsuemulator"/>
+		</Unit>
+		<Unit filename="/home/robertgu/Developer/CLionProjects/FSUEmulator/tinyxml/tinystr.cpp">
+			<Option target="fsuemulator"/>
+		</Unit>
+		<Unit filename="/home/robertgu/Developer/CLionProjects/FSUEmulator/tinyxml/tinyxml.cpp">
+			<Option target="fsuemulator"/>
+		</Unit>
+		<Unit filename="/home/robertgu/Developer/CLionProjects/FSUEmulator/tinyxml/tinyxmlerror.cpp">
+			<Option target="fsuemulator"/>
+		</Unit>
+		<Unit filename="/home/robertgu/Developer/CLionProjects/FSUEmulator/tinyxml/tinyxmlparser.cpp">
+			<Option target="fsuemulator"/>
+		</Unit>
+		<Unit filename="/home/robertgu/Developer/CLionProjects/FSUEmulator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
